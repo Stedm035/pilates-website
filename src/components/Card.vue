@@ -15,7 +15,7 @@ defineProps({
 <template>
   <section class="card">
     <aside>
-    <p class="serviceName">{{serviceName}}</p>
+    <h5 class="serviceName">{{serviceName}}</h5>
     <p class="description">{{description}}</p>
     </aside>
   </section>
@@ -24,14 +24,20 @@ defineProps({
 
 <style scoped>
 section.card {
-  display: flex;
-  border: 2px solid lightgray;
+  width: 300px;
+  height: 300px;
+  border: 3px solid darkslategray;
   border-radius: 10px;
-  padding: 6px;
+  padding: 4rem;
+  margin: 1rem;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  background-color: darkslategray;
 
   &:hover {
-    border-color: black;
+    border-color: white;
     cursor: pointer;
   }
 }
