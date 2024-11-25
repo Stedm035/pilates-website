@@ -5,7 +5,7 @@
 <template>
   <section class="introduction">
     <div>
-      <img src="../assets\classroom-students.jpg" alt="Intro Image"/>
+      <img src="../assets/women-sitting.jpg" alt="Intro Image"/>
     </div>
 
     <div class="intro">

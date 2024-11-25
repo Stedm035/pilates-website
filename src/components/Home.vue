@@ -8,8 +8,7 @@ import Welcome from "./Welcome.vue";
 
 <template>
   <primary-template>
-    <img class="hero-image" src="../assets/posing-woman.jpg"
-         alt="Hero Image"/>
+    <img src="../assets/posing-woman.jpg" alt="Hero Image"/>
 
     <welcome/>
 
@@ -61,7 +60,7 @@ div.cards {
   }
 }
 
-img.hero-image {
+img {
   width: 100%;
 }
 

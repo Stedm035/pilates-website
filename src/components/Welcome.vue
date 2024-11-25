@@ -23,7 +23,7 @@ section.welcome {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: .5rem;
+  margin: 0 2.5rem 1rem 2.5rem;
 }
 
 /* Tablet and up */
