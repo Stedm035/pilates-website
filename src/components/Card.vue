@@ -15,8 +15,8 @@ defineProps({
 <template>
   <section class="card">
     <aside>
-    <h5 class="serviceName">{{serviceName}}</h5>
-    <p class="description">{{description}}</p>
+      <h5 class="serviceName">{{ serviceName }}</h5>
+      <p class="description">{{ description }}</p>
     </aside>
   </section>
 
@@ -24,11 +24,9 @@ defineProps({
 
 <style scoped>
 section.card {
-  width: 300px;
-  height: 300px;
   border: 3px solid darkslategray;
   border-radius: 10px;
-  padding: 4rem;
+  padding: 1rem;
   margin: 1rem;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,6 +37,11 @@ section.card {
   &:hover {
     border-color: white;
     cursor: pointer;
+  }
+
+  @media screen and (width >= 600px) {
+    width: 300px;
+    height: 250px;
   }
 }
 </style>

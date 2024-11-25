@@ -2,37 +2,24 @@
 
 import PrimaryTemplate from "../../PrimaryTemplate.vue";
 import Card from "./Card.vue";
+import Introduction from "./Introduction.vue";
+import Welcome from "./Welcome.vue";
 </script>
 
 <template>
   <primary-template>
-    <img class="hero-image" src="\Users\lucys\WebstormProjects\pilates-website\src\components\heroimg.jpg"
+    <img class="hero-image" src="../assets/posing-woman.jpg"
          alt="Hero Image"/>
 
-    <div class="Welcome">
-      <h1>Welcome to Core Vitality</h1>
-      <h3>At Core Vitality, we believe in mindful movement to empower women. Step into our studio and start your
-        journey today.</h3>
-      <div class="button">
-        <button type="button">Book Your Class</button>
-      </div>
-    </div>
+    <welcome/>
 
-    <div class="container">
-      <img class="intro-image" src="\Users\lucys\WebstormProjects\pilates-website\src\components\img2.jpg" alt="Intro Image"/>
-    <div class="intro">
-      <h3>This is your moment, transform yourself.</h3>
-      <h4>Achieve your goals your way by reconnecting to your healthiest self. Our introductory membership makes it easy to get started!</h4>
-      <div class="button2">
-        <button type="button">About Us</button>
-      </div>
-    </div>
-    </div>
+    <introduction/>
+
 
     <div class="cards">
       <card
           service-name="Personal Training"
-          description="Empowering individuals to achieve their fitness goals with personalized training, expert guidance, and unwavering support."
+          description="Empowering individuals to achieve their fitness goals with personalized training, guidance, and unwavering support."
       />
 
       <card
@@ -42,8 +29,16 @@ import Card from "./Card.vue";
 
       <card
           service-name="Pilates Instructor Training"
-          description="Guiding aspiring instructors to master Pilates with comprehensive training, expert mentorship, and confident teaching skills."
+          description="Guiding aspiring instructors to master Pilates with comprehensive training, mentorship, and teaching."
       />
+    </div>
+
+    <div class="container">
+      <p>"I've been attending Pilates classes here for six months, and it's been life-changing! Not only have I improved
+        my flexibility and core strength, but I also feel more balanced and energized throughout the day. The
+        instructors are so knowledgeable and make every session fun and challenging. This studio is hands down the best
+        decision I've made for my health and well-being!"</p>
+      <h5>-Jessica R., Happy Client</h5>
     </div>
   </primary-template>
 </template>
@@ -55,14 +50,14 @@ div.cards {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin: 2rem 2rem 6rem 2rem;
+  margin: 2rem 2rem 4rem 2rem;
 
 
   /* Override at given width & up */
   @media screen and (width >= 600px) {
     flex-direction: row;
     justify-content: center;
-    margin: 2rem;
+    margin: 2rem 2rem 3rem 2rem;
   }
 }
 
@@ -70,49 +65,28 @@ img.hero-image {
   width: 100%;
 }
 
-.button {
-  justify-self: center;
-}
 
-button {
-  border: none;
-  border-radius: 15px;
-  padding: 15px 32px;
-  text-align: center;
-  color: ghostwhite;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 2px 2px 2rem 2px;
-  cursor: pointer;
-  background-color: darkslategray;
-}
-
-/* Mobile first styling */
 .container {
   border-bottom: 3px solid darkslategray;
   border-top: 3px solid darkslategray;
-  padding: 6rem 4rem 4rem 4rem;
+  padding: 3rem;
+  margin: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  img.intro-image {
-    width: 45%;
-    height: 100%
-  }
-
-  div.button2 {
-    margin-left: 40%;
-  }
-
-  /* Override at given width & up */
-  @media screen and (width >= 600px) {
-    flex-direction: row;
-    justify-content: center;
-    margin: 2rem;
-  }
 }
 
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15pt;
+  text-align: center;
+  color: darkslategrey;
+}
 
+h5 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategrey;
+  text-align: center;
+}
 </style>
