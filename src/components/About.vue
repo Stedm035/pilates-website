@@ -2,6 +2,7 @@
 
 import PrimaryTemplate from "../../PrimaryTemplate.vue";
 import Classes from "./Classes.vue";
+import Team from "./Team.vue";
 </script>
 
 <template>
@@ -20,17 +21,43 @@ import Classes from "./Classes.vue";
 
     <classes/>
 
+    <team/>
 
-
+    <div class="end">
+      <p>Interested in becoming a Pilates teacher, too?
+        Check out our Pilates Teacher Training to get started.</p>
+      <div class="button">
+        <router-link :to="{ name: 'Pricing' }">
+          <button type="button">Sign Up Here</button>
+        </router-link>
+      </div>
+    </div>
   </primary-template>
 </template>
 
 <style scoped>
 
-div.about{
+div.about {
   margin: 0 5rem 1rem 5rem;
 }
 
+button {
+  border: none;
+  border-radius: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  color: ghostwhite;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 1.5rem 1rem 2rem 1rem;
+  cursor: pointer;
+  background-color: darkslategray;
+}
+
+div.button {
+  justify-self: center;
+}
 
 h2 {
   font-size: 50px;

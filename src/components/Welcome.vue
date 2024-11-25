@@ -10,7 +10,7 @@
       <h3>At Core Vitality, we believe in movement to empower women. Step into our studio and start your
         journey today.</h3>
       <div class="button">
-        <router-link :to="{ name: 'Schedule' }">
+        <router-link :to="{ name: 'Pricing' }">
           <button type="button">Book Your Class</button>
         </router-link>
       </div>

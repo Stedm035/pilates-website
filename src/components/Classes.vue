@@ -10,8 +10,8 @@
 
     <div class="classes">
       <h3>Our Classes</h3>
-      <h5>Discover energizing Pilates classes designed for all levels, focusing on strength, flexibility, and mind-body
-        connection.</h5>
+      <h4>Discover energizing classes designed for all levels, focusing on strength, flexibility, and mind-body
+        connection.</h4>
       <ul>
         <li>Mat Pilates</li>
         <li>Reformer Pilates</li>
@@ -59,15 +59,15 @@ h3 {
   text-align: left;
 }
 
-h5 {
-  font-size: 19px;
+h4 {
+  font-size: 23px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkslategrey;
   text-align: left;
 }
 
 ul {
-  font-size: 17px;
+  font-size: 19px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   color: darkslategrey;
