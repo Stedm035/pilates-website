@@ -16,20 +16,26 @@ import Welcome from "./Welcome.vue";
 
 
     <div class="cards">
+      <router-link :to="{ name: 'About' }">
       <card
           service-name="Personal Training"
           description="Empowering individuals to achieve their fitness goals with personalized training, guidance, and unwavering support."
       />
+      </router-link>
 
+      <router-link :to="{ name: 'About' }">
       <card
           service-name="Group Fitness Classes"
           description="Transforming fitness into fun and community with dynamic group classes, expert coaching, and lasting motivation."
       />
+      </router-link>
 
+      <router-link :to="{ name: 'About' }">
       <card
           service-name="Pilates Instructor Training"
           description="Guiding aspiring instructors to master Pilates with comprehensive training, mentorship, and teaching."
       />
+      </router-link>
     </div>
 
     <div class="container">
@@ -64,6 +70,9 @@ img {
   width: 100%;
 }
 
+.cards a{
+  text-decoration: none;
+}
 
 .container {
   border-bottom: 3px solid darkslategray;

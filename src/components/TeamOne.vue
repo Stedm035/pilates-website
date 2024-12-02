@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="TeamOne">
+  <section class="teamone">
 
     <div class="image1">
       <img src="../assets/blondewoman.jpg" alt="Intro One"/>
@@ -21,7 +21,7 @@
 </template>
 
 <style scoped>
-section.TeamOne {
+section.teamone {
   display: flex;
   flex-direction: column;
   gap: 1rem;

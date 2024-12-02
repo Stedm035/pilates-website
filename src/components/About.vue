@@ -2,7 +2,6 @@
 
 import PrimaryTemplate from "../../PrimaryTemplate.vue";
 import Classes from "./Classes.vue";
-import Team from "./TeamOne.vue";
 import TeamOne from "./TeamOne.vue";
 import TeamTwo from "./TeamTwo.vue";
 import TeamThree from "./TeamThree.vue";
