@@ -2,11 +2,15 @@
 
 import PrimaryTemplate from "../../PrimaryTemplate.vue";
 import Classes from "./Classes.vue";
-import Team from "./Team.vue";
+import Team from "./TeamOne.vue";
+import TeamOne from "./TeamOne.vue";
+import TeamTwo from "./TeamTwo.vue";
+import TeamThree from "./TeamThree.vue";
 </script>
 
 <template>
   <primary-template>
+
     <img src="../assets/highfive.jpg" alt="Hero Image"/>
 
     <div class="about">
@@ -21,7 +25,13 @@ import Team from "./Team.vue";
 
     <classes/>
 
-    <team/>
+    <h3>Meet the Team</h3>
+
+    <TeamOne/>
+
+    <TeamTwo/>
+
+    <TeamThree/>
 
     <div class="end">
       <p>Interested in becoming a Pilates teacher, too?
@@ -64,6 +74,13 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkslategrey;
   text-justify: inter-word;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategrey;
   text-align: center;
 }
 

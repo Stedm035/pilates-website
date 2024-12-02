@@ -32,7 +32,7 @@ section.classes {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin: 2.5rem;
+  margin: 2.5rem 2.5rem 0 2.5rem;
   border-bottom: 3px solid darkslategray;
   border-top: 3px solid darkslategray;
   padding: 3rem;
