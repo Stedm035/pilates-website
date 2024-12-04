@@ -14,7 +14,6 @@ import Welcome from "./Welcome.vue";
 
     <introduction/>
 
-
     <div class="cards">
       <router-link :to="{ name: 'About' }">
       <card
@@ -98,3 +97,4 @@ h5 {
   text-align: center;
 }
 </style>
+
