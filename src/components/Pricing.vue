@@ -29,7 +29,7 @@ import PriceCard from "./PriceCard.vue";
       <price-card
           offer-name="Intro Apparatus 6 pack"
           price="$109.00"
-          description="6 in-person visits for $109 – starts on first visit, ends after 1 month, in-person and livestreams"
+          description="6 in-person visits for $109 – starts on first visit, ends after 1 month, in-person and livestream."
       />
     </div>
 
@@ -41,38 +41,38 @@ import PriceCard from "./PriceCard.vue";
       <price-card
           offer-name="Auto Renew Monthly Mat Pilates & Fitness Classes"
           price="$139.00"
-          description="3-month commitment, auto-renews, includes video library, livestream, and 1 guest pass."
+          description="Unlimited visits, minimum 3 months, auto-renews, includes livestream, and 1 guest pass."
       />
       <price-card
           offer-name="Auto Renew Monthly Apparatus Membership"
           price="$239.00"
-          description="3-month commitment, auto-renews, starts on first visit, includes video library and 1 guest pass."
+          description="12 visits per month, 3-month commitment, auto-renews, includes video library and 1 guest pass."
       />
       <price-card
           offer-name="4 Mat Pilates & Fitness Class Pack"
           price="$100.00"
-          description="6 in-person visits for $109 – starts on first visit, ends after 1 month, in-person and livestreams"
+          description="4 visits for $100 – expires in 6 months, no auto-renew, includes in-person and livestream."
       />
       <price-card
           offer-name="8 Mat Pilates & Fitness Class Pack"
           price="$176.00"
-          description="6 in-person visits for $109 – starts on first visit, ends after 1 month, in-person and livestreams"
+          description="8 visits for $176 – expires in 6 months, starts on first visit, includes in-person and livestream."
       />
       <price-card
           offer-name="4 Apparatus Class Pack"
           price="$148.00"
-          description="6 in-person visits for $109 – starts on first visit, ends after 1 month, in-person and livestreams"
+          description="4 visits for $148 – expires in 6 months, starts on first visit, includes in-person only."
       />
       <price-card
           offer-name="8 Apparatus Class Pack"
           price="$256.00"
-          description="6 in-person visits for $109 – starts on first visit, ends after 1 month, in-person and livestreams"
+          description="8 visits for $256 – expires in 6 months, starts on first visit, includes in-person only."
       />
 
     </div>
 
     <div class="end">
-      <p>Student and senior rates available! Email corevitlaityfitness@gmail.com for details. Want to sign up for a
+      <p>Student and senior rates available! Email corevitlaity@gmail.com for details. Want to sign up for a
         single class? Check out our schedule to view and purchase drop-in classes.</p>
       <p> Please note: all class packages are non-refundable. </p>
     </div>
@@ -101,6 +101,24 @@ div.first-cards {
 
   /* Override at given width & up */
   @media screen and (width >= 600px) {
+    flex-direction: row;
+    justify-content: left;
+    margin: 2rem 2rem 3rem 2rem;
+  }
+}
+
+/* Mobile first styling */
+div.second-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 2rem 4rem 2rem;
+
+
+  /* Override at given width & up */
+  @media screen and (width >= 600px) {
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: left;
     margin: 2rem 2rem 3rem 2rem;

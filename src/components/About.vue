@@ -33,8 +33,8 @@ import TeamThree from "./TeamThree.vue";
     <TeamThree/>
 
     <div class="end">
-      <p>Interested in becoming a Pilates teacher, too?
-        Check out our Pilates Teacher Training to get started.</p>
+      <p>Interested in beginning classes with us?
+        Check out our Pricing Page to get started.</p>
       <div class="button">
         <router-link :to="{ name: 'Pricing' }">
           <button type="button">Sign Up Here</button>
