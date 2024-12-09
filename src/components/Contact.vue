@@ -6,7 +6,7 @@ import PrimaryTemplate from "../../PrimaryTemplate.vue";
 <template>
   <primary-template>
     <div class="contact-intro">
-      <h3>Contact Us</h3>
+      <h2>Contact Us</h2>
       <p>Drop us a message via the form on this page or email us directly at corevitality@gmail.com or reach us by phone
         at 612-900-8101</p>
     </div>
@@ -73,8 +73,8 @@ div.contact-intro {
   border-bottom: 3px solid darkslategray;
 }
 
-h3 {
-  font-size: 40px;
+h2 {
+  font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkslategrey;
   text-justify: inter-word;
