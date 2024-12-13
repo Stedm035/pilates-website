@@ -47,7 +47,7 @@ section.introduction {
   }
 }
 
-div.intro{
+div.intro {
   margin-left: 1rem;
 }
 

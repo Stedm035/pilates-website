@@ -5,9 +5,12 @@
 <template>
   <section class="primary-template">
     <header>
-      <div class="logo">
-      </div>
       <div class="nav">
+        <div class="logo">
+          <a href="/">
+            <img src="\Users\lucys\WebstormProjects\pilates-website\src\assets\logo.png" alt="logo">
+          </a>
+        </div>
         <router-link :to="{name: 'About'}">About</router-link>
         <router-link :to="{name: 'Pricing'}">Pricing</router-link>
         <router-link :to="{name: 'Schedule'}">Schedule</router-link>
@@ -124,7 +127,19 @@ section.primary-template {
     text-decoration: underline;
   }
 
+  div.logo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  div.logo a {
+    float: left;
+
+
+  }
+
   header {
+
     .nav {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-align: right;

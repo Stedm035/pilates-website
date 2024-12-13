@@ -83,7 +83,7 @@ import PrimaryTemplate from "../../PrimaryTemplate.vue";
 
 <style scoped>
 
-div.schedule-intro{
+div.schedule-intro {
   margin: 0 2.5rem 0 2.5rem;
   padding: 2rem;
   border-bottom: 3px solid darkslategray;
@@ -131,9 +131,10 @@ div.sunday {
   border-bottom: 3px solid darkslategray;
 }
 
-div.end{
+div.end {
   margin: 2.5rem 2.5rem 0 2.5rem;
-  p{
+
+  p {
     text-align: center;
   }
 }
@@ -155,6 +156,7 @@ button {
 div.button {
   justify-self: center;
 }
+
 h2 {
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

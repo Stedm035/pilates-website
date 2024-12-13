@@ -56,7 +56,7 @@ h6 {
   text-align: left;
 }
 
-p{
+p {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;

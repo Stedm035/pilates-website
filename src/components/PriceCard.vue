@@ -20,7 +20,7 @@ defineProps({
     <aside>
       <h5 class="offerName">{{ offerName }}</h5>
       <h3 class="price">{{ price }}</h3>
-      <p class="description">{{description}}</p>
+      <p class="description">{{ description }}</p>
 
     </aside>
   </section>
